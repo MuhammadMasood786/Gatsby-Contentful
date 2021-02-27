@@ -14,11 +14,19 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^14.1.2",
     "gatsby": "^2.26.1",
+    "gatsby-image": "^2.11.0",
+    "gatsby-source-contentful": "^4.6.3",
+    "gatsby-transformer-remark": "^2.16.1",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "prettier": "2.2.1"
   },
   "repository": {
